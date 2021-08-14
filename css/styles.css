@@ -1,0 +1,135 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Nunito', serif;
+}
+
+h1{
+  margin: 50px auto 0 auto;
+  font-size: 90px;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  margin: auto;
+}
+hr{
+  padding-top: 20px;
+  width: 5%;
+  border-style: dotted none none;
+  border-width: 10px;
+  margin-top: 40px;
+}
+strong{
+  font-weight: bold;
+}
+a{
+  color: #C1AC95
+}
+a:hover{
+  color: #c7c7c7;
+}
+
+.top-container{
+  background-color: #CCF2F4;
+  position: relative;
+  padding-top: 100px;
+  height: 625px;
+  width: 100%;
+}
+.middle-container{
+  background-color: #C9E4C5;
+  position: relative;
+  padding-top: 20px;
+  height: 1150px;
+  width: 100%;
+}
+.bottom-container{
+  background-color: #C1AC95;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  position: relative;
+  height: 450px;
+  width: 100%;
+}
+.footer-container{
+  background-color: #FFF5DA;
+  position:relative;
+  height: 100px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 300px auto;
+  text-align: left;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 350px;
+}
+
+.mountain{
+  position: relative;
+}
+
+.profile{
+  margin: auto 20%;
+}
+
+.coder{
+  width: 240px;
+  height: 240px;
+  float: left;
+  margin-right: 30px;
+}
+.team{
+  width: 240px;
+  height: 240px;
+  float: right;
+  margin-left: 30px;
+}
+.btn {
+  background: #ace3a4;
+  background-image: -webkit-linear-gradient(top, #ace3a4, #6d9e8c);
+  background-image: -moz-linear-gradient(top, #ace3a4, #6d9e8c);
+  background-image: -ms-linear-gradient(top, #ace3a4, #6d9e8c);
+  background-image: -o-linear-gradient(top, #ace3a4, #6d9e8c);
+  background-image: linear-gradient(to bottom, #ace3a4, #6d9e8c);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 6px 10px 6px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #c7c7c7;
+  text-decoration: none;
+}
+.footer-link{
+text-decoration: none;
+margin: 50px;
+}
+.copyright{
+  padding-top: 20px;
+  color: #AAAAAA;
+  font-size: .75em;
+}
